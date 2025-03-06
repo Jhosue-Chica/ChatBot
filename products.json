@@ -1,0 +1,128 @@
+{
+  "store_info": {
+    "name": "TechStore",
+    "description": "Tu tienda de tecnología de confianza",
+    "horario": "Lunes a Viernes: 9:00 - 20:00, Sábados: 10:00 - 18:00",
+    "direccion": "Calle Principal 123, Ciudad",
+    "telefono": "555-123-4567",
+    "email": "info@techstore.com",
+    "politica_envios": "Envío gratuito en compras superiores a $50",
+    "politica_devoluciones": "30 días para devoluciones con el producto en su empaque original"
+  },
+  "categories": [
+    "Smartphones", 
+    "Laptops", 
+    "Accesorios", 
+    "Audio", 
+    "Gadgets"
+  ],
+  "products": [
+    {
+      "id": "SP001",
+      "name": "Smartphone Galaxy X10",
+      "category": "Smartphones",
+      "price": 599.99,
+      "description": "Smartphone de última generación con pantalla AMOLED de 6.5 pulgadas, cámara de 108MP y batería de 5000mAh.",
+      "specs": {
+        "pantalla": "6.5\" AMOLED",
+        "procesador": "Octa-core 2.8GHz",
+        "memoria": "8GB RAM",
+        "almacenamiento": "128GB",
+        "bateria": "5000mAh",
+        "camara": "Principal: 108MP, Frontal: 32MP"
+      },
+      "stock": 15,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "10%",
+        "precio_oferta": 539.99,
+        "fecha_fin": "2025-04-15"
+      }
+    },
+    {
+      "id": "SP002",
+      "name": "iPhone 15 Pro",
+      "category": "Smartphones",
+      "price": 999.99,
+      "description": "El iPhone más avanzado hasta la fecha, con chip A16 Bionic, cámara revolucionaria y diseño en titanio.",
+      "specs": {
+        "pantalla": "6.1\" Super Retina XDR",
+        "procesador": "A16 Bionic",
+        "memoria": "6GB RAM",
+        "almacenamiento": "256GB",
+        "bateria": "4000mAh",
+        "camara": "Principal: Triple 48MP, Frontal: 12MP"
+      },
+      "stock": 8,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "LT001",
+      "name": "Laptop Pro Book X",
+      "category": "Laptops",
+      "price": 1299.99,
+      "description": "Laptop ultradelgada con pantalla de 15.6 pulgadas, procesador Intel i7 de 12va generación y 16GB de RAM.",
+      "specs": {
+        "pantalla": "15.6\" IPS Full HD",
+        "procesador": "Intel Core i7-12700H",
+        "memoria": "16GB DDR4",
+        "almacenamiento": "512GB SSD",
+        "grafica": "NVIDIA RTX 3060 6GB",
+        "bateria": "8 horas de duración"
+      },
+      "stock": 5,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "15%",
+        "precio_oferta": 1104.99,
+        "fecha_fin": "2025-03-30"
+      }
+    },
+    {
+      "id": "AC001",
+      "name": "Auriculares Inalámbricos SoundMax",
+      "category": "Audio",
+      "price": 129.99,
+      "description": "Auriculares con cancelación activa de ruido, 30 horas de batería y calidad de sonido premium.",
+      "specs": {
+        "tipo": "Over-ear",
+        "conectividad": "Bluetooth 5.2",
+        "bateria": "30 horas",
+        "cancelacion_ruido": "Activa",
+        "microfono": "Incorporado con reducción de ruido"
+      },
+      "stock": 20,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "AC002",
+      "name": "Smartwatch FitLife Pro",
+      "category": "Accesorios",
+      "price": 199.99,
+      "description": "Reloj inteligente con monitor de salud, GPS incorporado y más de 100 modos deportivos.",
+      "specs": {
+        "pantalla": "1.4\" AMOLED",
+        "bateria": "14 días en modo básico",
+        "resistencia": "Agua 5ATM",
+        "sensores": "Ritmo cardíaco, SpO2, acelerómetro",
+        "conectividad": "Bluetooth 5.0"
+      },
+      "stock": 12,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "20%",
+        "precio_oferta": 159.99,
+        "fecha_fin": "2025-03-20"
+      }
+    }
+  ]
+}
