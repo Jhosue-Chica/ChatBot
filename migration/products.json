@@ -1,0 +1,697 @@
+{
+  "store_info": {
+    "name": "TechStore",
+    "description": "Tu tienda de tecnología de confianza",
+    "horario": "Lunes a Viernes: 9:00 - 20:00, Sábados: 10:00 - 18:00",
+    "direccion": "Calle Principal 123, Ciudad",
+    "telefono": "555-123-4567",
+    "email": "info@techstore.com",
+    "politica_envios": "Envío gratuito en compras superiores a $50",
+    "politica_devoluciones": "30 días para devoluciones con el producto en su empaque original"
+  },
+  "categories": [
+    "Smartphones", 
+    "Laptops", 
+    "Accesorios", 
+    "Audio", 
+    "Gadgets",
+    "Tablets",
+    "Monitores",
+    "Gaming",
+    "Smart Home"
+  ],
+  "products": [
+    {
+      "id": "SP001",
+      "name": "Smartphone Galaxy X10",
+      "category": "Smartphones",
+      "price": 599.99,
+      "description": "Smartphone de última generación con pantalla AMOLED de 6.5 pulgadas, cámara de 108MP y batería de 5000mAh.",
+      "specs": {
+        "pantalla": "6.5\" AMOLED",
+        "procesador": "Octa-core 2.8GHz",
+        "memoria": "8GB RAM",
+        "almacenamiento": "128GB",
+        "bateria": "5000mAh",
+        "camara": "Principal: 108MP, Frontal: 32MP"
+      },
+      "stock": 15,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "10%",
+        "precio_oferta": 539.99,
+        "fecha_fin": "2025-04-15"
+      }
+    },
+    {
+      "id": "SP002",
+      "name": "iPhone 15 Pro",
+      "category": "Smartphones",
+      "price": 999.99,
+      "description": "El iPhone más avanzado hasta la fecha, con chip A16 Bionic, cámara revolucionaria y diseño en titanio.",
+      "specs": {
+        "pantalla": "6.1\" Super Retina XDR",
+        "procesador": "A16 Bionic",
+        "memoria": "6GB RAM",
+        "almacenamiento": "256GB",
+        "bateria": "4000mAh",
+        "camara": "Principal: Triple 48MP, Frontal: 12MP"
+      },
+      "stock": 8,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "SP003",
+      "name": "Xiaomi Redmi Note 12",
+      "category": "Smartphones",
+      "price": 299.99,
+      "description": "Smartphone con excelente relación calidad-precio, cámara de 64MP y batería de larga duración.",
+      "specs": {
+        "pantalla": "6.67\" AMOLED",
+        "procesador": "Snapdragon 685",
+        "memoria": "6GB RAM",
+        "almacenamiento": "128GB",
+        "bateria": "5000mAh",
+        "camara": "Principal: 64MP, Frontal: 13MP"
+      },
+      "stock": 25,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "15%",
+        "precio_oferta": 254.99,
+        "fecha_fin": "2025-03-25"
+      }
+    },
+    {
+      "id": "SP004",
+      "name": "Google Pixel 8",
+      "category": "Smartphones",
+      "price": 799.99,
+      "description": "Con la mejor cámara en un smartphone y Android puro, el Pixel 8 ofrece la experiencia Google definitiva.",
+      "specs": {
+        "pantalla": "6.2\" OLED",
+        "procesador": "Google Tensor G3",
+        "memoria": "8GB RAM",
+        "almacenamiento": "256GB",
+        "bateria": "4500mAh",
+        "camara": "Principal: Dual 50MP, Frontal: 11MP"
+      },
+      "stock": 10,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "SP005",
+      "name": "Nothing Phone 2",
+      "category": "Smartphones",
+      "price": 549.99,
+      "description": "Diseño innovador con interfaz Glyph, experiencia fluida y cámara de alta calidad.",
+      "specs": {
+        "pantalla": "6.7\" OLED",
+        "procesador": "Snapdragon 8+ Gen 1",
+        "memoria": "12GB RAM",
+        "almacenamiento": "256GB",
+        "bateria": "4700mAh",
+        "camara": "Principal: 50MP, Frontal: 32MP"
+      },
+      "stock": 7,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "8%",
+        "precio_oferta": 505.99,
+        "fecha_fin": "2025-04-10"
+      }
+    },
+    {
+      "id": "LT001",
+      "name": "Laptop Pro Book X",
+      "category": "Laptops",
+      "price": 1299.99,
+      "description": "Laptop ultradelgada con pantalla de 15.6 pulgadas, procesador Intel i7 de 12va generación y 16GB de RAM.",
+      "specs": {
+        "pantalla": "15.6\" IPS Full HD",
+        "procesador": "Intel Core i7-12700H",
+        "memoria": "16GB DDR4",
+        "almacenamiento": "512GB SSD",
+        "grafica": "NVIDIA RTX 3060 6GB",
+        "bateria": "8 horas de duración"
+      },
+      "stock": 5,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "15%",
+        "precio_oferta": 1104.99,
+        "fecha_fin": "2025-03-30"
+      }
+    },
+    {
+      "id": "LT002",
+      "name": "MacBook Air M2",
+      "category": "Laptops",
+      "price": 1199.99,
+      "description": "Potencia y eficiencia en un diseño ultraligero con el revolucionario chip M2 de Apple.",
+      "specs": {
+        "pantalla": "13.6\" Liquid Retina",
+        "procesador": "Apple M2",
+        "memoria": "8GB RAM",
+        "almacenamiento": "256GB SSD",
+        "grafica": "GPU 10 núcleos",
+        "bateria": "18 horas de duración"
+      },
+      "stock": 12,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "LT003",
+      "name": "Lenovo ThinkPad X1 Carbon",
+      "category": "Laptops",
+      "price": 1499.99,
+      "description": "Laptop empresarial premium con durabilidad militar, teclado excepcional y rendimiento confiable.",
+      "specs": {
+        "pantalla": "14\" WQUXGA IPS",
+        "procesador": "Intel Core i7-12800H",
+        "memoria": "16GB DDR5",
+        "almacenamiento": "1TB SSD",
+        "grafica": "Intel Iris Xe",
+        "bateria": "12 horas de duración"
+      },
+      "stock": 7,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "LT004",
+      "name": "ASUS ROG Strix G15",
+      "category": "Laptops",
+      "price": 1699.99,
+      "description": "Laptop gaming con refrigeración avanzada, pantalla de alta frecuencia y potente GPU para gamers exigentes.",
+      "specs": {
+        "pantalla": "15.6\" Full HD 165Hz",
+        "procesador": "AMD Ryzen 9 6900HX",
+        "memoria": "32GB DDR5",
+        "almacenamiento": "1TB SSD",
+        "grafica": "NVIDIA RTX 3070 Ti 8GB",
+        "bateria": "6 horas de duración"
+      },
+      "stock": 4,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "12%",
+        "precio_oferta": 1495.99,
+        "fecha_fin": "2025-05-01"
+      }
+    },
+    {
+      "id": "LT005",
+      "name": "Dell XPS 13 Plus",
+      "category": "Laptops",
+      "price": 1399.99,
+      "description": "Diseño minimalista con teclado innovador, pantalla sin bordes y procesador de última generación.",
+      "specs": {
+        "pantalla": "13.4\" InfinityEdge",
+        "procesador": "Intel Core i7-1260P",
+        "memoria": "16GB DDR5",
+        "almacenamiento": "512GB SSD",
+        "grafica": "Intel Iris Xe",
+        "bateria": "10 horas de duración"
+      },
+      "stock": 9,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "10%",
+        "precio_oferta": 1259.99,
+        "fecha_fin": "2025-04-20"
+      }
+    },
+    {
+      "id": "AC001",
+      "name": "Auriculares Inalámbricos SoundMax",
+      "category": "Audio",
+      "price": 129.99,
+      "description": "Auriculares con cancelación activa de ruido, 30 horas de batería y calidad de sonido premium.",
+      "specs": {
+        "tipo": "Over-ear",
+        "conectividad": "Bluetooth 5.2",
+        "bateria": "30 horas",
+        "cancelacion_ruido": "Activa",
+        "microfono": "Incorporado con reducción de ruido"
+      },
+      "stock": 20,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "AC002",
+      "name": "Smartwatch FitLife Pro",
+      "category": "Accesorios",
+      "price": 199.99,
+      "description": "Reloj inteligente con monitor de salud, GPS incorporado y más de 100 modos deportivos.",
+      "specs": {
+        "pantalla": "1.4\" AMOLED",
+        "bateria": "14 días en modo básico",
+        "resistencia": "Agua 5ATM",
+        "sensores": "Ritmo cardíaco, SpO2, acelerómetro",
+        "conectividad": "Bluetooth 5.0"
+      },
+      "stock": 12,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "20%",
+        "precio_oferta": 159.99,
+        "fecha_fin": "2025-03-20"
+      }
+    },
+    {
+      "id": "AC003",
+      "name": "Apple Watch Series 8",
+      "category": "Accesorios",
+      "price": 399.99,
+      "description": "El smartwatch más avanzado de Apple con sensor de temperatura, detección de accidentes y ECG.",
+      "specs": {
+        "pantalla": "1.9\" Retina LTPO OLED",
+        "bateria": "18 horas",
+        "resistencia": "IP6X, 50m agua",
+        "sensores": "ECG, SpO2, temperatura, caídas",
+        "conectividad": "Bluetooth 5.3, Wi-Fi, NFC"
+      },
+      "stock": 15,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "AC004",
+      "name": "Power Bank 20000mAh",
+      "category": "Accesorios",
+      "price": 49.99,
+      "description": "Batería externa de alta capacidad con carga rápida y múltiples puertos para todos tus dispositivos.",
+      "specs": {
+        "capacidad": "20000mAh",
+        "entradas": "USB-C, Micro USB",
+        "salidas": "2x USB-A, 1x USB-C",
+        "carga_rapida": "18W máximo",
+        "peso": "350g"
+      },
+      "stock": 30,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "25%",
+        "precio_oferta": 37.49,
+        "fecha_fin": "2025-04-05"
+      }
+    },
+    {
+      "id": "AC005",
+      "name": "Funda Protectora iPhone 15",
+      "category": "Accesorios",
+      "price": 29.99,
+      "description": "Funda resistente a impactos con protección de cámara y bordes reforzados, compatible con MagSafe.",
+      "specs": {
+        "material": "Silicona y policarbonato",
+        "compatibilidad": "iPhone 15 y 15 Pro",
+        "características": "Protección de cámara, bordes elevados",
+        "extras": "Compatible con carga inalámbrica"
+      },
+      "stock": 40,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "30%",
+        "precio_oferta": 20.99,
+        "fecha_fin": "2025-03-15"
+      }
+    },
+    {
+      "id": "AU001",
+      "name": "Sony WH-1000XM5",
+      "category": "Audio",
+      "price": 349.99,
+      "description": "Los auriculares con la mejor cancelación de ruido del mercado, calidad de sonido excepcional y 30 horas de batería.",
+      "specs": {
+        "tipo": "Over-ear",
+        "conectividad": "Bluetooth 5.2, Jack 3.5mm",
+        "bateria": "30 horas ANC activado",
+        "cancelacion_ruido": "Premium con 8 micrófonos",
+        "codecs": "LDAC, AAC, SBC"
+      },
+      "stock": 8,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "AU002",
+      "name": "AirPods Pro 2",
+      "category": "Audio",
+      "price": 249.99,
+      "description": "Auriculares in-ear con cancelación activa de ruido, audio espacial y estuche con carga inalámbrica.",
+      "specs": {
+        "tipo": "In-ear",
+        "conectividad": "Bluetooth 5.3",
+        "bateria": "6h (auriculares), 30h (con estuche)",
+        "cancelacion_ruido": "Activa adaptativa",
+        "resistencia": "IPX4 (agua y sudor)"
+      },
+      "stock": 15,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "10%",
+        "precio_oferta": 224.99,
+        "fecha_fin": "2025-05-10"
+      }
+    },
+    {
+      "id": "AU003",
+      "name": "Barra de Sonido Samsung Q700C",
+      "category": "Audio",
+      "price": 599.99,
+      "description": "Barra de sonido 3.1.2 con Dolby Atmos, DTS:X y subwoofer inalámbrico para una experiencia cinematográfica.",
+      "specs": {
+        "canales": "3.1.2",
+        "potencia": "430W",
+        "conectividad": "HDMI eARC, Bluetooth, Wi-Fi",
+        "formatos": "Dolby Atmos, DTS:X",
+        "extras": "AirPlay 2, SpaceFit Sound"
+      },
+      "stock": 6,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "15%",
+        "precio_oferta": 509.99,
+        "fecha_fin": "2025-04-30"
+      }
+    },
+    {
+      "id": "AU004",
+      "name": "Altavoz Bluetooth JBL Charge 5",
+      "category": "Audio",
+      "price": 179.99,
+      "description": "Altavoz portátil resistente al agua con 20 horas de batería y función powerbank.",
+      "specs": {
+        "potencia": "40W",
+        "bateria": "20 horas",
+        "resistencia": "IP67 (agua y polvo)",
+        "conectividad": "Bluetooth 5.1",
+        "extras": "JBL PartyBoost, Powerbank"
+      },
+      "stock": 18,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "TB001",
+      "name": "iPad Pro 12.9 M2",
+      "category": "Tablets",
+      "price": 1099.99,
+      "description": "La tablet más potente de Apple con pantalla mini-LED, chip M2 y compatibilidad con Apple Pencil 2.",
+      "specs": {
+        "pantalla": "12.9\" Liquid Retina XDR",
+        "procesador": "Apple M2",
+        "memoria": "8GB RAM",
+        "almacenamiento": "256GB",
+        "bateria": "10 horas",
+        "camaras": "Principal: 12MP, Frontal: 12MP"
+      },
+      "stock": 7,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "TB002",
+      "name": "Samsung Galaxy Tab S9",
+      "category": "Tablets",
+      "price": 899.99,
+      "description": "Tablet Android premium con pantalla AMOLED, S Pen incluido y rendimiento excepcional.",
+      "specs": {
+        "pantalla": "11\" AMOLED 120Hz",
+        "procesador": "Snapdragon 8 Gen 2",
+        "memoria": "12GB RAM",
+        "almacenamiento": "256GB",
+        "bateria": "8400mAh",
+        "extras": "S Pen incluido, IP68"
+      },
+      "stock": 9,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "12%",
+        "precio_oferta": 791.99,
+        "fecha_fin": "2025-04-15"
+      }
+    },
+    {
+      "id": "TB003",
+      "name": "Lenovo Tab P12 Pro",
+      "category": "Tablets",
+      "price": 699.99,
+      "description": "Tablet Android con gran pantalla y sonido JBL para entretenimiento y productividad.",
+      "specs": {
+        "pantalla": "12.6\" AMOLED",
+        "procesador": "Snapdragon 870",
+        "memoria": "8GB RAM",
+        "almacenamiento": "256GB",
+        "bateria": "10200mAh",
+        "extras": "Stylus Precision Pen 3"
+      },
+      "stock": 11,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "MN001",
+      "name": "Monitor LG UltraGear 27GP950",
+      "category": "Monitores",
+      "price": 799.99,
+      "description": "Monitor gaming 4K 144Hz con HDMI 2.1, G-Sync y tiempos de respuesta ultrarrápidos.",
+      "specs": {
+        "tamaño": "27\"",
+        "resolución": "4K UHD (3840x2160)",
+        "frecuencia": "144Hz",
+        "panel": "Nano IPS",
+        "tiempo_respuesta": "1ms GtG",
+        "puertos": "2x HDMI 2.1, 1x DisplayPort 1.4"
+      },
+      "stock": 6,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "15%",
+        "precio_oferta": 679.99,
+        "fecha_fin": "2025-04-01"
+      }
+    },
+    {
+      "id": "MN002",
+      "name": "Monitor Dell UltraSharp U2723QE",
+      "category": "Monitores",
+      "price": 699.99,
+      "description": "Monitor profesional 4K con USB-C y hub de conectividad para entornos de trabajo.",
+      "specs": {
+        "tamaño": "27\"",
+        "resolución": "4K UHD (3840x2160)",
+        "panel": "IPS",
+        "puertos": "1x HDMI, 1x DisplayPort, USB-C (90W)",
+        "extras": "Hub USB, RJ45, KVM"
+      },
+      "stock": 8,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "GM001",
+      "name": "PlayStation 5 Digital Edition",
+      "category": "Gaming",
+      "price": 399.99,
+      "description": "Consola de última generación de Sony con SSD ultrarrápido y controlador DualSense con retroalimentación háptica.",
+      "specs": {
+        "cpu": "AMD Ryzen Zen 2",
+        "gpu": "AMD RDNA 2 10.28 TFLOPS",
+        "almacenamiento": "825GB SSD",
+        "memoria": "16GB GDDR6",
+        "salida": "HDMI 2.1 (8K, 4K 120Hz)"
+      },
+      "stock": 5,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "GM002",
+      "name": "Xbox Series X",
+      "category": "Gaming",
+      "price": 499.99,
+      "description": "La consola Xbox más potente con 4K a 60fps, hasta 120fps y trazado de rayos.",
+      "specs": {
+        "cpu": "AMD Zen 2 8 núcleos",
+        "gpu": "AMD RDNA 2 12 TFLOPS",
+        "almacenamiento": "1TB SSD",
+        "memoria": "16GB GDDR6",
+        "salida": "HDMI 2.1 (8K, 4K 120Hz)"
+      },
+      "stock": 4,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "10%",
+        "precio_oferta": 449.99,
+        "fecha_fin": "2025-03-25"
+      }
+    },
+    {
+      "id": "GM003",
+      "name": "Nintendo Switch OLED",
+      "category": "Gaming",
+      "price": 349.99,
+      "description": "Consola híbrida con pantalla OLED mejorada, soporte ajustable y almacenamiento ampliado.",
+      "specs": {
+        "pantalla": "7\" OLED",
+        "almacenamiento": "64GB",
+        "bateria": "4.5-9 horas",
+        "modos": "TV, Sobremesa, Portátil",
+        "conectividad": "Wi-Fi, Bluetooth, Ethernet (dock)"
+      },
+      "stock": 12,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "SH001",
+      "name": "Amazon Echo Dot 5ª Gen",
+      "category": "Smart Home",
+      "price": 49.99,
+      "description": "Altavoz inteligente compacto con Alexa, mejor calidad de sonido y sensor de temperatura.",
+      "specs": {
+        "asistente": "Amazon Alexa",
+        "conectividad": "Wi-Fi, Bluetooth",
+        "audio": "Altavoz de 1.73\"",
+        "sensores": "Temperatura",
+        "extras": "Hub Zigbee integrado"
+      },
+      "stock": 25,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "30%",
+        "precio_oferta": 34.99,
+        "fecha_fin": "2025-04-10"
+      }
+    },
+    {
+      "id": "SH002",
+      "name": "Google Nest Hub 2ª Gen",
+      "category": "Smart Home",
+      "price": 99.99,
+      "description": "Pantalla inteligente con Google Assistant, seguimiento del sueño y reproducción multimedia.",
+      "specs": {
+        "pantalla": "7\" táctil",
+        "asistente": "Google Assistant",
+        "audio": "Altavoz full-range de 1.7\"",
+        "sensores": "Temperatura, movimiento, luz",
+        "extras": "Seguimiento del sueño sin contacto"
+      },
+      "stock": 15,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "SH003",
+      "name": "Kit de Iluminación Philips Hue",
+      "category": "Smart Home",
+      "price": 199.99,
+      "description": "Kit inicial con puente Hue y 3 bombillas inteligentes a color, compatible con todos los asistentes.",
+      "specs": {
+        "contenido": "1 puente Hue, 3 bombillas E27",
+        "conectividad": "Zigbee, Bluetooth",
+        "compatibilidad": "Alexa, Google, HomeKit, IFTTT",
+        "potencia": "Equivalente a 60W",
+        "colores": "16 millones de colores"
+      },
+      "stock": 10,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "15%",
+        "precio_oferta": 169.99,
+        "fecha_fin": "2025-03-20"
+      }
+    },
+    {
+      "id": "GD001",
+      "name": "Drone DJI Mini 3 Pro",
+      "category": "Gadgets",
+      "price": 759.99,
+      "description": "Drone ultraligero con cámara 4K, evitación de obstáculos y tiempo de vuelo extendido.",
+      "specs": {
+        "peso": "249g (no requiere registro)",
+        "camara": "4K/60fps, 48MP",
+        "bateria": "34 minutos de vuelo",
+        "alcance": "12km",
+        "características": "Evitación de obstáculos, FocusTrack"
+      },
+      "stock": 6,
+      "disponible": true,
+      "ofertas": {
+        "activa": false
+      }
+    },
+    {
+      "id": "GD002",
+      "name": "GoPro HERO11 Black",
+      "category": "Gadgets",
+      "price": 499.99,
+      "description": "Cámara de acción resistente al agua con grabación 5.3K, estabilización HyperSmooth 5.0 y nuevo sensor.",
+      "specs": {
+        "resolución": "5.3K/60fps, 4K/120fps",
+        "sensor": "1/1.9\" 27MP",
+        "estabilización": "HyperSmooth 5.0",
+        "resistencia": "Sumergible 10m",
+        "batería": "Enduro mejorada"
+      },
+      "stock": 12,
+      "disponible": true,
+      "ofertas": {
+        "activa": true,
+        "descuento": "20%",
+        "precio_oferta": 399.99,
+        "fecha_fin": "2025-04-15"
+      }
+    }
+  ]
+}
